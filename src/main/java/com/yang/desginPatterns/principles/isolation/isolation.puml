@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class a
+class b
+class c
+class d
+1 <|-- a
+1 <|-- b
+1 <|-- c
+1 <|-- d
+interface 1{
+operation1();void
+operation2();void
+operation3();void
+operation4();void
+operation5();void
+}
+@enduml
